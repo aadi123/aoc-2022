@@ -2,8 +2,7 @@ module Main where
 
 main :: IO ()
 main = do
-    raw <- readFile "input.text"
+    raw <- readFile "input.txt"
     let currentCalorieSum = 0
     let maxCalories = 0
-    input <- getLine
-    let nums = map read $ lines raw :: [Int]
+    putStrLn raw
