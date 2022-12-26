@@ -76,7 +76,7 @@ func part2() {
 	cals := 0
 
 	// read input
-	f, err := os.Open("./input.txt")
+	f, err := os.Open("./input/day1.txt")
 	check(err)
 	defer f.Close()
 

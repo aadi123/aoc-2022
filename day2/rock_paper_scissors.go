@@ -73,7 +73,7 @@ func check(e error) {
 
 func part2() {
 	// read input
-	f, err := os.Open("./input.txt")
+	f, err := os.Open("./input/day2.txt")
 	check(err)
 	defer f.Close()
 
